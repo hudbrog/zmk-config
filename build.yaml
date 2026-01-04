@@ -33,3 +33,8 @@ include:
     shield: rolio_right nice_view
     cmake-args: -DEXTRA_CONF_FILE=../../config/rolio_nv.conf  
     artifact-name: zmk-rolio461-nicenano_v2-nice_view-right
+  - board: nice_nano_v2
+    shield: rolio_right nice_view
+    snippet: zmk-usb-logging
+    cmake-args: -DEXTRA_CONF_FILE=../../config/rolio_nv.conf
+    artifact-name: zmk-rolio461-nicenano_v2-nice_view-right-usb-logging
