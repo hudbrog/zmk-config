@@ -8,6 +8,8 @@ manifest:
       url-base: https://github.com/elpekenin
     - name: MickiusMousius
       url-base: https://github.com/MickiusMousius
+    - name: badjeff
+      url-base: https://github.com/badjeff
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
@@ -19,6 +21,9 @@ manifest:
       revision: main
     - name: zmk-ls0xxvcom-driver
       remote: MickiusMousius
+      revision: main
+    - name: zmk-analog-input-driver
+      remote: badjeff
       revision: main
   self:
     path: config
